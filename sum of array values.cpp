@@ -3,9 +3,12 @@ using namespace std;
 
 void sumOfArray(int ar[],int n ){
 	int sum=0;
-	for(int i=0;i<n;i++)
-	{
-		sum=sum+ar[i];
+	for(int i=0;i<n;i=i+2)
+	{	
+		if(i%2==0)
+		{
+		  sum=sum+ar[i];
+	    }
 	}
 	cout<<"Sum of array values:"<<sum<<endl;
 }
