@@ -47,15 +47,17 @@ int main()
 	int n,value;
 	cout<<"enter no. of nodes:";
 	cin>>n ;
-	for(int i=0;i<n;i++)
+	int i=0;
+	while(i<n)
 	{
 		cout<<"Enter data:";
 		cin>>value;
 		list.insertionAtEnd(value);
-		
+		i++;
 	}
 	
 
 	list.display();
 	return 0;
 }
+
