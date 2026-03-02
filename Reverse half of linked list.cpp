@@ -72,6 +72,7 @@ int main()
 	cout<<"Enter the size :\n";
 	cin>>n;
 	int value;
+	cout<<"Enter the data of linked list\n";
 	for(int i=0;i<n;i++){
 		cin>>value;
 		list.insert(value);
@@ -84,3 +85,4 @@ int main()
 	list.dispaly();
 	return 0;
 }
+
