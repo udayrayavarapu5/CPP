@@ -3,11 +3,12 @@
 #include<iostream>
 using namespace std;
 class Employee{
-    public:
-          string name;
+    protected:
+            string name;
          int id;
         float basicsalary;
         float totalsalary;
+    public:
         void getEmployeeDetails()
         {
             cout<<"name:"<<endl;
